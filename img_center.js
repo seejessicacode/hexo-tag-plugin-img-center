@@ -5,6 +5,9 @@ hexo.extend.tag.register('img_center', function(args) {
 
   /*
   Input/Output examples:
+  {% img_center %}
+  <p align="center"><img></p>
+  
   {% img_center /img/posts/blogPostImage.png %}
   <p align="center"><img src="/img/posts/blogPostImage.png"></p>
 
